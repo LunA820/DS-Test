@@ -1,6 +1,6 @@
 # DS Test
 This .NET project aims to implement the most typical data structure & algorithms. <br />
-This project has not yet completed.  <br /><br />
+This project has not yet completed.  <br />
 
 <h3>Graph Folder</h3>
 Implement graph using adjacency list representation: Each Node object has a list of adj. nodes.  <br />
