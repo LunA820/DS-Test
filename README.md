@@ -1,5 +1,5 @@
 # DataStructure
-This project focus on implementations of data structure & algorithms. <br />
+This .NET project focus on implementations of data structure & algorithms. <br />
 It doesn't provide any front-end interface. <br />
 
 # Graph Folder
