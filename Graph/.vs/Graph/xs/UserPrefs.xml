@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{1E57CC7B-7B37-483A-9FB5-32189FA524B3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Graph/GraphAPI.cs">
+    <Files>
+      <File FileName="Graph/Program.cs" Line="14" Column="35" />
+      <File FileName="Graph/BFS.cs" Line="20" Column="53" />
+      <File FileName="Graph/DFS.cs" Line="11" Column="1" />
+      <File FileName="Graph/GraphAPI.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Graph" expanded="True">
+            <Node name="Graph" expanded="True">
+              <Node name="GraphAPI.cs" selected="True" />
+            </Node>
+            <Node name="GraphTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Graph" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Graph PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
