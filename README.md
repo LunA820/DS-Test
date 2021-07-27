@@ -1,4 +1,4 @@
-# DataStructure
+# DS Test
 This .NET project focus on implementations of data structure & algorithms. <br />
 It doesn't provide any front-end interface. <br /><br />
 
