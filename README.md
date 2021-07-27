@@ -7,5 +7,5 @@ Implement graph using adjacency list representation: Each Node object has a list
 Algorithms include Breath first search (BFS) & Depth first search (DFS). <br />
 MSTest is used for testing the algorithms (BFS & DFS).
 
-<h3>BinarySearchTree Folder</h3><br />
+<h3>BinarySearchTree Folder</h3>
 Implement BST & related algorithms
