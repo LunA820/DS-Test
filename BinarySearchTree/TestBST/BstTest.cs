@@ -34,6 +34,43 @@ namespace TestBST
         }
 
         [TestMethod]
+        public void MinTest()
+        {
+            // Create a new BST
+            BST tree = new BST(7);
+            tree.add(5); tree.add(9);
+            tree.add(6); tree.add(1);
+
+
+            // Traversal T = list of all nodes within BST
+            Node n = tree.getMin();
+            Assert.IsTrue(n.getX() == 1);
+        }
+
+        [TestMethod]
+        public void ParentTest()
+        {
+            // Create a new BST
+            BST tree = new BST(7);
+            tree.add(5); Node n9 = tree.add(9);
+            tree.add(6); tree.add(1);
+            tree.add(8); Node n11 = tree.add(11);
+            tree.add(10); tree.add(12);
+
+            // Check parents
+            Node p1 = tree.getParent(9);
+            Assert.IsTrue(p1 == tree.getRoot());
+            Node p2 = tree.getParent(11);
+            Assert.IsTrue(p2 == n9);
+            Node p3 = tree.getParent(12);
+            Assert.IsTrue(p3 == n11);
+            Node p4 = tree.getParent(8);
+            Assert.IsTrue(p4 == n9);
+            Node p5 = tree.getParent(10);
+            Assert.IsTrue(p5 == n11);
+        }
+
+        [TestMethod]
         public void TraversalTest()
         {
             // Create a new BST
