@@ -6,7 +6,7 @@ This .NET project aims to implement the most typical data structure & related al
 </ul>
 MSTest is used for testing the structure and its algorithms<hr />
 
-<h3>Graph Folder</h3>
+<h2>Graph Folder</h2>
 Implement graph using adjacency list representation: Each Node object has a list of adj. nodes.  <br />
 Algorithms include:
 <ul>
@@ -14,7 +14,7 @@ Algorithms include:
   <li>Depth first search (DFS). </li>
 </ul>
 
-<h3>BinarySearchTree Folder</h3>
+<h2>BinarySearchTree Folder</h2>
 Implement BST & related algorithms including:
 <li>Add/Remove node</li>
 <li>Get all nodes of a tree</li>
