@@ -34,40 +34,34 @@ namespace TestBST
         }
 
         [TestMethod]
-        public void MinTest()
+        public void SizeTest()
         {
-            // Create a new BST
+            BST T = new BST(1);
+            Assert.IsTrue(T.getSize() == 1);
+            T.add(1);
+            Assert.IsTrue(T.getSize() == 2);
+            T.add(9);
+            Assert.IsTrue(T.getSize() == 3);
+            T.remove(9);
+            Assert.IsTrue(T.getSize() == 2);
+        }
+
+        [TestMethod]
+        public void MinMaxTest()
+        {
+            // Create a new BST: 1, 5, 6, 7, 9
             BST tree = new BST(7);
             tree.add(5); tree.add(9);
             tree.add(6); tree.add(1);
 
+            // Min = 1, Max = 9
+            Assert.IsTrue(tree.getMin().getX() == 1);
+            Assert.IsTrue(tree.getMax().getX() == 9);
 
-            // Traversal T = list of all nodes within BST
-            Node n = tree.getMin();
-            Assert.IsTrue(n.getX() == 1);
-        }
-
-        [TestMethod]
-        public void ParentTest()
-        {
-            // Create a new BST
-            BST tree = new BST(7);
-            tree.add(5); Node n9 = tree.add(9);
-            tree.add(6); tree.add(1);
-            tree.add(8); Node n11 = tree.add(11);
-            tree.add(10); tree.add(12);
-
-            // Check parents
-            Node p1 = tree.getParent(9);
-            Assert.IsTrue(p1 == tree.getRoot());
-            Node p2 = tree.getParent(11);
-            Assert.IsTrue(p2 == n9);
-            Node p3 = tree.getParent(12);
-            Assert.IsTrue(p3 == n11);
-            Node p4 = tree.getParent(8);
-            Assert.IsTrue(p4 == n9);
-            Node p5 = tree.getParent(10);
-            Assert.IsTrue(p5 == n11);
+            // Add new nodes 11, -1, min = -1, max = 11
+            tree.add(-1); tree.add(11);
+            Assert.IsTrue(tree.getMin().getX() == -1);
+            Assert.IsTrue(tree.getMax().getX() == 11);
         }
 
         [TestMethod]
